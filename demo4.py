@@ -10,7 +10,6 @@ db = client.test
 collection = db.students
 # collection = db['students']
 
-
 student1 = {
     'id': '20170101',
     'name': 'Jordan',

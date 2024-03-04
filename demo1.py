@@ -9,7 +9,6 @@ db = client.test
 collection = db.students
 # collection = db['students']
 
-
 student = {
     'id': '20170101',
     'name': 'Jordan',
@@ -17,6 +16,5 @@ student = {
     'gender': 'male'
 }
 
-result = collection.insert(student)
+result = collection.insert_one(student)
 print(result)
-

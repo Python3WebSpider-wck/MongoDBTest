@@ -9,10 +9,10 @@ db = client.test
 
 collection = db.students
 
-result = collection.remove({'name': 'Kevin'})
-print(result)
+# result = collection.remove({'name': 'Kevin'})
+# print(result)
 
-result = collection.delete_one({'name': 'Kevin'})
+result = collection.delete_one({'name': 'Jordan'})
 print(result)
 print(result.deleted_count)
 result = collection.delete_many({'age': {'$lt': 25}})
